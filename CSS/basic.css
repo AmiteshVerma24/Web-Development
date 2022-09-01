@@ -1,0 +1,74 @@
+.heading{
+    color: blue;
+}
+
+.sub-heading{
+    color: chocolate;
+}
+
+.selector-list :nth-child(2n+1){
+    color: burlywood;
+}
+
+.selector-list :nth-child(2n){
+    color: cadetblue;
+}
+
+.intro,
+.group-selectors{
+    color: coral;
+}
+
+.selector-div{
+    outline: 3px solid black; 
+}
+
+.descendant-div div p{
+    color: cornflowerblue;
+}
+
+.descendant-div{
+    outline: 3px solid black;
+}
+
+
+.pseudo-div{
+    outline: 3px solid black;
+}
+
+.google-link:link{
+    color: blue;
+}
+.google-link:visited{
+    color: brown;
+}
+.google-link:hover{
+    color: pink;
+}
+.google-link:active{
+    color: chartreuse;
+}
+
+.pseudo-div p:nth-child(2n){
+    color: burlywood;
+}
+
+.pseudo-div li:nth-child(2n+1){
+    color: chocolate;
+}
+
+.priority{
+    outline: 3px solid black;
+}
+
+.priority li:nth-child(2n+1){
+    color: brown;
+}
+
+.priority li:nth-child(2n){
+    color: burlywood;
+}
+
+.priority .color{
+    color: cornflowerblue;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="basic.css">
+</head>
+<body>
+    <header>
+        <h1 class="heading">Practice CSS</h1>
+        <h3 class="sub-heading">Here we will study basic concepts of CSS</h3>
+    </header>
+    <div class="selector-div">
+        <p class="intro">First we will see selectors</p>
+        <p>The are listed below</p>
+        <ul class="selector-list">
+            <li>Tag name</li>
+            <li>Class</li>
+            <li>ID</li>
+        </ul>
+        <p class="group-selectors">We can even group selectors together which we have done in CSS file</p>
+    </div>  
+    <div class="descendant-div">
+        <p>Next comes Descendant selectros which can be used for nested items</p>
+        <div class="color">
+            <p>Color me</p>
+            <p>Color me</p>
+        </div>
+        <section>
+            <p>Don't color me</p>
+            <p>Don't color me</p>
+        </section>
+    </div>
+    <div class="pseudo-div">
+        <p>Last comes pseudo selectors which become active only in particular condition</p>
+        <p>Take an example of anchor tag</p>
+        <a href="https://www.google.com/" class="google-link" target="new">Google</a>
+        <p>There is another important topic which is nth-child</p>
+        <p>Using this we can even use simple mathematical operations</p>
+        <ol>
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+            <li>Forth</li>
+            <li>Fifth</li>
+            <li>Sixth</li>
+            <li>Seventh</li>
+        </ol>
+    </div>
+    <div class="priority">
+        <p>CSS has six priority order which is listed below</p>
+        <ul>
+            <li>!Important</li>
+            <li>Inline CSS</li>
+            <li>ID selector</li>
+            <li>Class selector</li>
+            <li>Group of elements</li>
+            <li>Only elemets</li>
+        </ul>
+        <p class="color">If even then it results in a match then we see the order</p>
+        <p class="color">The last one gets rendered</p>
+    </div>
+</body>
+</html>

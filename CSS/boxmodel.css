@@ -1,0 +1,21 @@
+body * {
+    margin: 0%;
+    border: 1px solid black;
+    padding: 0%;
+}
+
+.second {
+    padding: 2%;
+    background-color: aqua;
+}
+
+.third{
+    padding: 2%;
+    border: 3px dashed black;
+    background-color: orange;
+}
+
+.forth{
+    margin: 10px;
+    background-color:darkkhaki
+}

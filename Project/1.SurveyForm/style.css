@@ -23,12 +23,25 @@ p{
     margin: auto;
     margin-top: 3%;
     background-color: white;
-    border: 1px solid black; 
+    border: 1px solid rgba(108,106,111,255); 
     border-radius: 12px;
     border-top: 10px solid rgba(96,63,176,255);
     padding-left: 3%;
     padding-right: 3%;
     
+}
+
+span{
+    color: red;
+}
+
+.required-text{
+    color: red;
+    font-size: 1.2rem;
+}
+
+.heading-para{
+    font-size: 1.2rem;
 }
 
 .bottom-hr, .top-hr{
@@ -78,10 +91,20 @@ input[type=radio].cource-choice{
     accent-color: rgba(96,63,176,255);
 }
 
+.cource-choice{
+    height: 1.5em;
+    width: 1.5em;
+    text-align: center;
+}
+
+form{
+    font-size: 1.4rem;
+}
+
 /* Button container */
 
 .button-container{
-    width: 70%;
+    width: 50%;
     margin: auto;
     margin-top: 5%;
 }
@@ -95,4 +118,31 @@ input[type=radio].cource-choice{
     padding-right: 4%;
     border-radius: 6px;
     border: 0px;
+    color: white;
+}
+
+.clear-form-button{
+    background-color: rgba(233,231,247,255);
+    color: rgba(96,63,176,255);
+    border: 0px;
+    font-size: large;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 4%;
+    padding-right: 4%;
+    border-radius: 6px;
+    float: right;
+}
+
+/* Footer */
+.footer{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.footer-text{
+    font-size: 2rem;
+    margin-bottom: 3%;
+    color: rgba(108,106,111,255);
+
 }

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="heading-container">
+        <header>
+            <h1 class="heading-content">Computer Knowledge Questionnaire</h1>
+        </header>
+        <hr class="top-hr">
+        <p class="heading-content">Here we are trying to get information regarding the skills of students </p>
+        <hr class="bottom-hr">
+    </div>
+    <!-- First question -->
+    <div class="question-container">
+        <h4 >What is your name?</h4>
+        <input type="text" placeholder="Enter your name" class="name-input input">
+    </div>
+    <!-- Second question -->
+    <div class="question-container">
+        <h4 >Enter your USN</h4>
+        <input type="text" placeholder="Your answer" class="name-input input">
+    </div>
+    <!-- Third question -->
+    <div class="question-container">
+        <h4 >Enter your Email</h4>
+        <input type="email" placeholder="Enter your email" class="name-input input">
+    </div>
+    <!-- Forth question -->
+    <div class="question-container">
+        <h4 >Which cource you would like to enroll to?</h4>
+        <form class="cource-enroll-form"> 
+            <input type="radio" id="cource-enroll" name="choice" class="cource-choice"> Garden design    
+            <br>  
+            <input type="radio" id="cource-enroll" name="choice" class="cource-choice"> Marine engineering
+            <br/>  
+            <input type="radio" id="cource-enroll" name="choice" class="cource-choice"> Origami    
+            <br>  
+            <input type="radio" id="cource-enroll" name="choice" class="cource-choice last-choice" > Game design
+            <br/>  
+        </form>
+    </div>
+
+    <!-- Fifth question -->
+    <div class="question-container">
+        <h4 >Any suggestion of new cource</h4>
+        <input type="text" placeholder="Your answer" class="name-input input">
+    </div>
+
+    <!-- Bottom buttons -->
+    <div class="button-container">
+        <button class="submit-button">Submit</button>
+    </div>
+
+</body>
+</html>

@@ -12,7 +12,18 @@ li{
     border: 3px red solid;
     margin: 10px;
 }
-
+h2{
+    font-size: 2rem
+}
+h4{
+    font-size: 1.4rem;
+}
+.desc{
+    font-size: 1.2rem;
+}
+.type{
+    font-size: 1.2rem;
+}
 /* Flex direction */
 .flex-direction-row{
     flex-direction: row;
@@ -79,3 +90,4 @@ li{
     flex-direction: row;
     height: 150px;
 }
+
